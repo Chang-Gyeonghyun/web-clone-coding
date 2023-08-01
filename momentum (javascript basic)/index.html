@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Momentum</title>
+</head>
+<body>
+    <header>
+        <div id ="weather">
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <h2 id = "clock">00:00:00</h2>
+        <h1 id ="greeting" class="hidden"></h1>
+        <form id ="login-form" class="hidden">
+            <input required maxlength="15" type="text" placeholder="What is your name?"/>
+            <button>Log In</button>
+        </form>
+        <form id="todo-form" class="hidden">
+            <input required type="text" placeholder="Write a To Do and and Press"/>
+        </form>
+    
+        <ul id="todo-list" class="hidden">
+        </ul>
+    </main>
+
+    <footer>
+        <div id ="quote">
+            <span></span>
+            <span></span>
+        </div>
+        <span>photo: tawatchai07 / from: Freepik</span>
+    </footer>
+    <script src="js/clock.js"></script>
+    <script src="js/greeting.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+</html>

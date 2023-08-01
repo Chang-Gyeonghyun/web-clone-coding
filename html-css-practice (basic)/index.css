@@ -1,0 +1,264 @@
+@font-face {
+    src: url("fonts/NotoSansKR-Bold.otf");
+    font-family: "mine"
+}
+
+#font1 {
+    font-family: "mine";
+}
+
+
+* {
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 100;
+}
+
+.contents1 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.contents1_bold{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contents2{
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.contents3{
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.intro_bg {
+    background-image: url("Icon/component\ \(2\).png");
+    width: 100%;
+    height: 718px;
+}
+
+.searchArea {
+    width: 300px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    align-self: center;
+}
+
+.searchArea>form>input {
+    border: none;
+    width: 250px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.0);
+    color: #fff;
+    padding-left: 10px;
+}
+
+.searchArea>form>span {
+    width: 50px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.header {
+    display: flex;
+    width: 1280px;
+    height: 86px;
+    margin: auto;
+}
+
+.nav {
+    display: flex;
+    width: calc(1280px - 300px);
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.nav>li {
+    margin-left: 84px;
+
+    >a {
+        color: #fff;
+    }
+
+}
+
+.intro_text {
+    width: 100%;
+    margin: 231px auto;
+    text-align: center;
+    align-self: center;
+
+}
+
+.intro_text>h1,
+.intro_text>h4 {
+    color: #fff;
+}
+
+.amount {
+    position: relative;
+    top: -66px;
+    display: flex;
+    width: 1280px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+
+    >ul {
+        display: flex;
+        justify-content: space-around;
+        height: 132px;
+        flex: 1;
+
+        >li {
+            flex: 1;
+
+            >div {
+
+                text-align: center;
+                height: 57px;
+                margin-top: 37px;
+            }
+        }
+
+        >li:not(:last-child)>div {
+            border-right: 1px solid #E1E1E1
+        }
+    }
+
+}
+
+.main_text0{
+    width: 100%;
+    height: 601px;
+    background-color: #f1f2f3;
+    margin-top: -132px;
+    text-align: center;
+
+    > h1{
+        padding-top: 116px;
+    }
+}
+
+.icons{
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    width: 1280px;
+    >li{
+        background-color: white;
+        margin-top: 49px;
+        flex:1;
+        height: 302px;
+        > .icon_img{
+            margin-top: 36px;
+        }
+    }
+
+    .contents3{
+        margin: auto;
+        width: 180px;
+        letter-spacing: -2px;
+    }
+
+    .more {
+        width:100px;
+        height:  30px;
+        background: #2F7AF4;
+        color: #fff;
+        margin: 25px auto 27px;
+        line-height: 30px;
+        font-size: 12px;
+    }
+}
+
+.main_text1{
+    width: 100%;
+    height: 659px;
+    text-align: center;
+    > h1 {
+        padding-top: 50px;
+    }
+
+    .service {
+        width: 1280px;
+        display: flex;
+        margin: 49px auto;
+        height: 427px;
+    }
+
+    .contents3 {
+        > h2{
+            margin-bottom: 27px;
+        }
+        line-height: 24px;
+        text-align: start;
+        padding: 20px;
+
+    }
+}
+
+.main_text2{
+    width: 100%;
+    height: 418px;
+    background-image: url("Icon/component.png");
+    background-size: 100% 418px;
+
+    > ul{
+        display: flex;
+        padding-top: 138px;
+        > li{
+            flex:1;
+            text-align: center;
+            > div{
+                >h1{color:#fff}
+                color:#fff
+            }
+        }
+    }
+}
+
+.more2{
+    width: 220px;
+    height:  40px;
+    border: 1px solid #fff;
+    line-height: 40px;
+    cursor: pointer;
+    margin: 16px auto;
+}
+
+footer{
+    background-color: #1f1f1f;
+    display: flex;
+
+    > div:first-child{
+        font-size: 48px;
+        font-weight: 100;
+        flex:1;
+        text-align: center;
+        color: white;
+        margin: 95px 207px 92px 320px;
+
+    }
+    > div:last-child{
+        flex:9;
+        color:white;
+        line-height: 40px;
+        margin-top: 51px;
+    }
+}
