@@ -1,5 +1,3 @@
-
-
 def save_to_file(keyword, jobs):
     file = open(f"{keyword}.csv", "w")
 
